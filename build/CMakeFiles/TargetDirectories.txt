@@ -1,2 +1,5 @@
 /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles/rebuild_cache.dir
 /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles/edit_cache.dir
+/Users/zhangsongbo/workspace/github/magotan/build/src/CMakeFiles/rebuild_cache.dir
+/Users/zhangsongbo/workspace/github/magotan/build/src/CMakeFiles/edit_cache.dir
+/Users/zhangsongbo/workspace/github/magotan/build/src/CMakeFiles/magotan.dir

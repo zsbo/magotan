@@ -73,19 +73,64 @@ CMAKE_BINARY_DIR = /Users/zhangsongbo/workspace/github/magotan/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: src/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: src/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/magotan.dir/all
+
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/magotan.dir/clean
+
+.PHONY : src/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/magotan.dir
+
+# All Build rule for target.
+src/CMakeFiles/magotan.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/magotan.dir/build.make src/CMakeFiles/magotan.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/magotan.dir/build.make src/CMakeFiles/magotan.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles --progress-num=1,2 "Built target magotan"
+.PHONY : src/CMakeFiles/magotan.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/magotan.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/magotan.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/magotan.dir/rule
+
+# Convenience name for target.
+magotan: src/CMakeFiles/magotan.dir/rule
+
+.PHONY : magotan
+
+# clean rule for target.
+src/CMakeFiles/magotan.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/magotan.dir/build.make src/CMakeFiles/magotan.dir/clean
+.PHONY : src/CMakeFiles/magotan.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
