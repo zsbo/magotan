@@ -9,7 +9,7 @@
 
 #define BUF_SIZE 140
 
-int main()
+int ver()
 {
     int server_sockfd;
     server_sockfd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);

@@ -112,12 +112,12 @@ src/clean: src/CMakeFiles/magotan.dir/clean
 src/CMakeFiles/magotan.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/magotan.dir/build.make src/CMakeFiles/magotan.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/magotan.dir/build.make src/CMakeFiles/magotan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles --progress-num=1,2 "Built target magotan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles --progress-num=1,2,3 "Built target magotan"
 .PHONY : src/CMakeFiles/magotan.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/magotan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/magotan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangsongbo/workspace/github/magotan/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/magotan.dir/rule
